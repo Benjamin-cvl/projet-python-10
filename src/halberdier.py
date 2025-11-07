@@ -5,7 +5,7 @@ from src.soldat import Soldat
 import pygame
 
 
-class Halberdier(Soldat):
+class Halberdier(Solda
     
     def __init__(self, x=0, y=0, img_path="./assets/halberdier.png"):
         super().__init__(x=x, y=y, img_path=img_path)
